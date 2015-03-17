@@ -12,3 +12,24 @@
 1426527217 source:/home/geek/Documents/Workplace/Analysis Of Algorithms/source/median.cpp
 	"dividenconquer.h"
 
+1426527678 source:/home/sumit/Documents/Github For Algorithms/Analysis-Of-Algorithms/source/median.cpp
+	"dividenconquer.h"
+
+1426590467 /home/sumit/Documents/Github For Algorithms/Analysis-Of-Algorithms/include/dividenconquer.h
+
+1426523210 source:/home/sumit/Documents/Github For Algorithms/Analysis-Of-Algorithms/source/power.cpp
+	"dividenconquer.h"
+	<iostream>
+
+1426588732 source:/home/sumit/Documents/Github For Algorithms/Analysis-Of-Algorithms/source/max_sum_sub.cpp
+	"dividenconquer.h"
+	<iostream>
+
+1426589074 source:/home/sumit/Documents/Github For Algorithms/Analysis-Of-Algorithms/main.cpp
+	<iostream>
+	"dividenconquer.h"
+
+1426590449 source:/home/sumit/Documents/Github For Algorithms/Analysis-Of-Algorithms/source/maxSubArraySum.cpp
+	<stdio.h>
+	<limits.h>
+

@@ -2,4 +2,6 @@
 #define DIVIDENCONQUER_INCLUDED
 int power(int,int);
 int median_of_sorted_arrays(int *,int *,int);
+int max_sum_sub(int *,int);
+int maxSubArraySum(int *, int, int );
 #endif // DIVIDENCONQUER_INCLUDED
