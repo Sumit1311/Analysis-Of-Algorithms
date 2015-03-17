@@ -33,3 +33,27 @@
 	<stdio.h>
 	<limits.h>
 
+1426612033 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/main.cpp
+	<iostream>
+	"dividenconquer.h"
+
+1426611093 /home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/include/dividenconquer.h
+
+1426613393 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/binary_search_rotated.cpp
+	<iostream>
+
+1426607186 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/max_sum_sub.cpp
+	"dividenconquer.h"
+	<iostream>
+
+1426607195 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/maxSubArraySum.cpp
+	<stdio.h>
+	<limits.h>
+
+1426607084 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/median.cpp
+	"dividenconquer.h"
+
+1426607084 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/power.cpp
+	"dividenconquer.h"
+	<iostream>
+
