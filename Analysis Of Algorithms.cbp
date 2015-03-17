@@ -35,6 +35,8 @@
 		</Compiler>
 		<Unit filename="include/dividenconquer.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="source/maxSubArraySum.cpp" />
+		<Unit filename="source/max_sum_sub.cpp" />
 		<Unit filename="source/median.cpp" />
 		<Unit filename="source/power.cpp" />
 		<Extensions>
