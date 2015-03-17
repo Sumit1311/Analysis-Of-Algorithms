@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1426527430 source:/home/geek/Documents/Workplace/Analysis Of Algorithms/main.cpp
+	<iostream>
+	"dividenconquer.h"
+
+1426525233 /home/geek/Documents/Workplace/Analysis Of Algorithms/include/dividenconquer.h
+
+1426523210 source:/home/geek/Documents/Workplace/Analysis Of Algorithms/source/power.cpp
+	"dividenconquer.h"
+	<iostream>
+
+1426527217 source:/home/geek/Documents/Workplace/Analysis Of Algorithms/source/median.cpp
+	"dividenconquer.h"
+
