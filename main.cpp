@@ -1,6 +1,6 @@
 #include <iostream>
 #include "dividenconquer.h"
-
+#include "util.h"
 using namespace std;
 
 int main() {
@@ -18,6 +18,9 @@ int main() {
 
     int array3[]={10,12,17,18,20,21,2,5,6,7};
     int n=sizeof(array3)/sizeof(array3[0]);
-    cout<<"Element 6 : "<<binary_search_rotated(array3,0,n-1,9);
+    /*cout<<"Element 6 : "<<binary_search_rotated(array3,0,n-1,9);*/
+    insertion_sort(array3,n);
+    cout<<"Sorted Elements : ";
+    print_array(array3,n);
     return 0;
 }

@@ -6,4 +6,5 @@ int max_sum_sub(int *,int);
 int maxSubArraySum(int *, int, int );
 int binary_search_rotated(int *,int,int,int);
 int binary_search_optimal(int *,int,int,int);
+void insertion_sort(int *,int);
 #endif // DIVIDENCONQUER_INCLUDED

@@ -33,13 +33,14 @@
 	<stdio.h>
 	<limits.h>
 
-1426784920 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/main.cpp
+1427533759 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/main.cpp
 	<iostream>
 	"dividenconquer.h"
+	"util.h"
 
-1426782289 /home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/include/dividenconquer.h
+1427533118 /home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/include/dividenconquer.h
 
-1426784994 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/binary_search_rotated.cpp
+1426787044 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/binary_search_rotated.cpp
 	<iostream>
 
 1426607186 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/max_sum_sub.cpp
@@ -58,4 +59,13 @@
 	<iostream>
 
 1426783543 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/binary_search_optimal.cpp
+
+1427533593 /home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/include/util.h
+
+1427534387 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/insertion_sort.cpp
+	<iostream>
+	"util.h"
+
+1427533838 source:/home/geek/Documents/Workplace/Analysis-of-Algorithm/Analysis-Of-Algorithms/source/print_array.cpp
+	<iostream>
 
