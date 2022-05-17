@@ -30,7 +30,7 @@ IntPtr merge(IntPtr arr1, int size1, IntPtr arr2, int size2)
         }
         else
         {
-            merged[k] = arr1[j];
+            merged[k] = arr2[j];
             j++;
         }
         k++;
@@ -43,14 +43,14 @@ IntPtr merge(IntPtr arr1, int size1, IntPtr arr2, int size2)
         k++;
     }
 
-    while (j < size1)
+    while (j < size2)
     {
         merged[k] = arr2[j];
         j++;
         k++;
     }
-
-    printVector(merged, size1 + size2);
+//	cout<<"Merged Array"<<endl;   
+//    printVector(merged, size1 + size2);
 
     return merged;
 }
@@ -63,19 +63,26 @@ IntPtr merge_sort(IntPtr array, int size)
     }
 
     int size1 = size / 2;
-    IntPtr arr1 = merge_sort(array, size / 2);
-    int size2 = size % 2 == 0 ? (size / 2) : (size / 2) + 1;
-    IntPtr arr2 = merge_sort(array + 1 + (size / 2), size2);
-    printVector(arr1, size1);
-    printVector(arr2, size2);
-    return merge(arr1, size1, arr2, size2);
+    IntPtr arr1 = merge_sort(array, size1);
+    int size2 = size % 2 == 0 ? size1 : size1 + 1;
+    IntPtr arr2 = merge_sort(array + size1, size2);
+//    cout<<"First SubArray"<<endl;    
+//	printVector(arr1, size1);
+//    cout<<"Second SubArray"<<endl;    
+//	printVector(arr2, size2);
+    
+    IntPtr merged = merge(arr1, size1, arr2, size2);
+    return merged;
 }
 
 int main()
 {
     int arr[] = {3, 2, 7, 4, 6, 8, 5};
     int size = 7;
-    merge_sort(arr, size);
+    cout<<"Unsorted ";
     printVector(arr, size);
+    IntPtr sorted = merge_sort(arr, size);
+    cout<<"Sorted ";
+    printVector(sorted, size);
     return 0;
 }
