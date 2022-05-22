@@ -58,9 +58,10 @@ int approach2(IntPtr array, int begin, int end)
 
 int countInversions(IntPtr array, int begin, int mid, int end) {
 	int count = 0;
-	
-	IntPtr first = new int[mid - begin + 1];
-	IntPtr second = new int[end - mid];
+	int size1 = mid - begin + 1;
+	int size2 = end - mid;
+	IntPtr first = new int[size1];
+	IntPtr second = new int[size2];
 //	cout<<"Before ";
 //	printVector(array, begin, end);
 	for(int i = begin; i <= mid; ++i) {
@@ -82,11 +83,11 @@ int countInversions(IntPtr array, int begin, int mid, int end) {
 	
 	int i = 0, j = 0, k = begin;
 	
-	while(i <= (mid - begin) && j <= ((end - mid) -1 )) {
+	while(i < size1 && j < size2) {
 		if(first[i] >= second[j]) {
 			array[k] = second[j];
 			j++;
-			count+=(mid - begin - i + 1);
+			count+=(size1 - i);
 		} else {
 			array[k] = first[i];
 			i++;
@@ -94,13 +95,13 @@ int countInversions(IntPtr array, int begin, int mid, int end) {
 		k++;
 	}
 	
-	while(i <= (mid- begin)) {
+	while(i < size1) {
 			array[k] = first[i];
 			i++;
 			k++;
 	}
 	
-	while( j <= (end - mid - 1)) {
+	while( j < size2) {
 		array[k] = second[j];
 			j++;
 			k++;
@@ -130,7 +131,7 @@ int main()
     int arr[] = {8, 4, 2, 1};
     //int size = 6;
     int size = 4;
-    cout << approach1(arr, 0, 3 ) << endl;
+    cout << approach1(arr, 0, 3 ) << endl;//!!!Wrong Method. Don't Use it!!!!
     cout << approach2(arr, 0, 3 ) << endl;
     cout << approach3(arr, 0, 3 ) << endl;
 }
